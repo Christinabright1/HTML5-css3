@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Online</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--Header will have navbar , logo, overlay-->
+    <header>
+   <nav class="navbar">
+       <div class="container">
+    <h1 id="logo">Gourmet au Catering</h1>
+    <!--Hidden bars-->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars" style="font-size:24px"></i></a>
+           <ul>
+               <li><a href="#">Menu</a></li>
+               <li><a href="#">Pizzas</a></li>
+               <li><a href="#">Massas</a></li>
+               <li><a href="#">Encomendar</a></li>
+               <li><a>Contact</a></li>
+           </ul>
+        </div>
+   </nav><!--Navbar-->
+
+   <!--Container-->
+     <div id="showcase">
+         <div class="container">
+             <div class="showcase-content">
+                 <h1 id="title">Pizzaria</h1>
+                
+             </div>
+         </div>
+         <p id="time">OPEN FROM 10AM TO 12PM</p>
+     </div>
+    </header>
+    <!--Section menu-->
+    <section id="menu">
+          
+              <h1 id="menu-header">THE MENU</h1>
+             <div class="food-container">
+                
+                 <div class="image-content">
+                   
+                     <img src="https://images.unsplash.com/photo-1544882907-b914cebddbf4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80">
+                    
+                     <div class="detail">
+                         <p>Margherita<span class="price">$12.4</span></p>
+                         <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                     </div>
+                 </div>
+
+                 <div class="image-content">
+                   
+                        <img src="https://images.unsplash.com/photo-1594179047502-07fb8a5451f6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80">
+                       
+                        <div class="detail">
+                            <p>Formaggio<span class="price">$15.5</span></p>
+                            <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                        </div>
+                 </div>
+                 <div class="image-content">
+                    
+                        <img src="https://images.unsplash.com/photo-1499778003268-cbafc6d08bab?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80">
+                
+                        <div class="detail">
+                            <p>Pineapple'o'clock<span class="price">$13.4</span></p>
+                            <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                        </div>
+                 </div>
+                
+             </div> <!--menu container-->
+           <!--Massa click on arrow icon to display more image-->
+           <section></section>
+           <!--Encomendar-->
+           <section class="encomendar">
+                  <div></div>
+           </section>
+           <!--Contact-->
+           <footer id="footer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3113.1659667926647!2d-9.1406468!3d38.7139984!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933875c6762ed%3A0x483ad88c98affaf!2sRossio!5e0!3m2!1sen!2spt!4v1606609272619!5m2!1sen!2spt"  class="map" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+           </footer>
+    </section>
+    <script src="/js/script.js"></script>
+    <!--https://www.gurneysresorts.com/   to add an animation-->
+    <!--https://tourpartnergroup.com/-->
+    <!--https://hous.eu/projecten/-->
+    <!--https://philiber.ca/-->
+    <!--https://1stwebdesigner.com/css-effects/   css animation-->
+</body>
+</html>
