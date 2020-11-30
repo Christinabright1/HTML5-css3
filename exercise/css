@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+/*header*/
+#showcase {
+    background-image: url("https://images.unsplash.com/photo-1552539618-7eec9b4d1796?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1466&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  background-position: center;
+}
+.navbar #logo {
+    color: white;
+    float: left;
+    padding-top: 10px;
+}
+.navbar .icon{
+    display: none;
+}
+/*style nav bar*/
+.navbar {
+    background-color: black;
+    color: rgb(170, 145, 145);
+    position: sticky;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+
+}
+.navbar ul {
+    list-style-type: none;
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+    padding: 10px;
+}
+.navbar ul li a {
+   display: block;
+   text-align: center;
+   color: #fff;
+}
+.container {
+    width: 1100px;
+    margin: auto;
+    overflow: auto;
+     
+}
+#showcase .showcase-content{
+    color: white;
+    text-align: center;
+    padding: 170px;
+    
+}
+#showcase .showcase-content #title{
+    line-height: 1.7em;
+    color: white;
+    font-size: 80px;
+    position: relative;
+    animation: animateText 3s 1 normal ease;
+}
+#showcase  #time{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    padding: 13px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+@keyframes animateText {
+    0%{margin-top: -100px; }
+    100%{margin-top: 0px;}
+}
+
+/*menu*/
+img {
+    width: 100%;
+    height: auto;
+}
+#menu {
+     display: block;
+   background-color: rgb(20, 20, 20);
+}
+#menu #menu-header {
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+
+.food-container {
+    margin-top: 30px;
+  height: 450px;
+  display: flex;
+  margin-left: 40px;
+}
+
+.food-container .image-content {
+ width: 30%;
+  background: lightgrey;
+  margin: 10px;
+}
+.map {
+    margin-left: 30%;
+    margin-top: 20px;
+    width: 700px;
+    height: 350px;
+    
+}
