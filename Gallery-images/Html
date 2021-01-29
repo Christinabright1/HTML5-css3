@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div style="text-align:center">
+  <h2>Tabbed Image Gallery</h2>
+  <p>Click on the images below:</p>
+</div>
+
+<div class="container">
+  <img id="expandedImg" style="width:100%" src="https://images.pexels.com/photos/1714976/pexels-photo-1714976.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+  
+  
+</div><!-- Container-->
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images.pexels.com/photos/1134178/pexels-photo-1134178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=500" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images.pexels.com/photos/2403017/pexels-photo-2403017.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
