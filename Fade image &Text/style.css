@@ -1,0 +1,76 @@
+*{
+  color: white;
+}
+/*content*/
+.content{
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.fade-in{
+  animation: fadeIn;
+  animation-delay: 1s;
+ 
+}
+/*left fade .animation*/
+.fade-left {
+  animation: fadeLeft;
+  animation-delay: 1.7s;
+}
+/*right animation*/
+.fade-right {
+  animation: fadeRight;
+  animation-delay: 2.7s;
+}
+.animation{
+  animation-fill-mode: both;
+  animation-duration: 1s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+   transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*fade left .animation*/
+@keyframes fadeLeft {
+  from {
+    opacity: 0;
+   transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*fade right*/
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+   transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body{
+  background: black;
+}
+img{
+  width: 100%;
+}
+.container {
+  width: 600px;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+ 
+}
