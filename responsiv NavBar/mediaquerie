@@ -1,0 +1,53 @@
+
+@media only screen and (max-width: 600px) {
+  .navBar ul {
+    display: none;
+  }
+  #open {
+    display: block;
+    margin-top: -20px;
+  }
+  .nav-list.mobile-menu {
+    display: block;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 70px;
+    
+  }
+  .nav-list.mobile-menu li {
+    display: block;
+    padding: .5rem 1rem;
+    margin: .5rem;
+  }
+  .container{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navBar ul {
+    display: none;
+  }
+  #open {
+    display: block;
+    margin-top: -20px;
+  }
+  .nav-list.mobile-menu {
+    display: block;
+    width: 100%;
+    background: black;
+    position: absolute;
+    top: 70px;
+    
+  }
+  .nav-list.mobile-menu li {
+    display: block;
+    padding: .5rem 1rem;
+    margin: .5rem;
+  }
+  .container{
+    flex-direction: column;
+  }
+  
+}
